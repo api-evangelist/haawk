@@ -1,0 +1,28 @@
+# HAAWK
+
+> HAAWK is a Los Angeles-based music rights management and monetization company that administers digital rights across YouTube, Facebook, Instagram, and TikTok for record labels, music publishers, and independent artists. HAAWK has administered 100B+ video views and manages 1.1M+ music copyrights for 2,000+ rights holders. Backed by 500 Global.
+
+Note: As of 2026-07-19 enrichment, HAAWK publishes no public developer API, SDK, or technical documentation. This profile covers the company's public product and policy surface only.
+
+## Products
+
+- [HAAWK](https://www.haawk.com/products): Full-service YouTube Content ID and Facebook/Instagram (Meta) Rights Manager administration for labels, publishers, and music libraries.
+- [Identifyy](https://www.haawk.com/products): Self-service rights management platform for independent artists to monetize user-generated content videos.
+- [Keyframe Audio](https://www.haawk.com/products): Micro sync-licensing catalog of 50,000+ production music tracks (from $19/month).
+- [Diistro](https://www.haawk.com/products): Digital music distribution to Apple Music, Spotify, YouTube Music, TikTok, and others.
+
+## Company
+
+- [Website](https://haawk.com): Company homepage.
+- [Products](https://www.haawk.com/products): Product overview.
+- [Contact / Support](https://www.haawk.com/contact): support@haawk.com.
+- [Blog / Press](https://medium.com/haawk): Company news on Medium.
+
+## Policies
+
+- [Privacy Policy](https://www.haawk.com/privacy-policy)
+- [Copyright Policy](https://www.haawk.com/copyright-policy)
+
+## Artifacts
+
+- [Domain Security](https://raw.githubusercontent.com/api-evangelist/haawk/refs/heads/main/security/haawk-domain-security.yml): Probed TLS/HSTS/DNS posture for haawk.com.

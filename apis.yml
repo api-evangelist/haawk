@@ -1,7 +1,13 @@
 aid: haawk
 name: HAAWK
-description: HAAWK is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: HAAWK is a Los Angeles-based music rights management and monetization company that administers
+  digital rights across YouTube, Facebook, Instagram, and TikTok for record labels, music publishers, and
+  independent artists. Its products include HAAWK (full-service YouTube Content ID and Meta Rights Manager
+  administration), Identifyy (self-service UGC rights management for independent creators), Keyframe Audio
+  (a micro sync-licensing catalog of 50,000+ production music tracks), and Diistro (digital music distribution
+  to Apple Music, Spotify, YouTube Music, and TikTok). HAAWK has administered 100B+ video views and manages
+  1.1M+ music copyrights for 2,000+ rights holders. Backed by 500 Global. No public developer API, SDK, or
+  documentation surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/haawk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: No public API/SDK/developer documentation surface found (2026-07-19). Spec-dependent
+  artifacts (openapi, packages, mcp, scopes, authentication, conventions, errors, asyncapi, skills) are N/A.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.squarespace-cdn.com/content/v1/599ce3fd893fc09434e5445a/1503537960386-PS0D77CF3DZ994UY6OV4/HAAWK%2C+Inc.+logo
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Music
+- Rights Management
+- Content ID
+- Music Distribution
+- Sync Licensing
+- Copyright
+- Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/haawk-domain-security.yml
 - type: Website
   url: https://haawk.com
+- type: Products
+  url: https://www.haawk.com/products
+- type: Blog
+  url: https://medium.com/haawk
+- type: Support
+  url: https://www.haawk.com/contact
+- type: PrivacyPolicy
+  url: https://www.haawk.com/privacy-policy
+- type: CopyrightPolicy
+  url: https://www.haawk.com/copyright-policy
+- type: LLMsTxt
+  url: llms/haawk-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

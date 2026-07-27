@@ -1,0 +1,21 @@
+{
+  "repo": "haawk",
+  "feeds": [
+    {
+      "source": "https://www.haawk.com/products?format=rss",
+      "feed_url": "https://www.haawk.com/products?format=rss",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.haawk.com/products",
+      "feed_url": "https://www.haawk.com/products?format=rss",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
